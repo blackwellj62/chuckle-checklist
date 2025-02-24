@@ -8,7 +8,7 @@
   --col-2: #ea3788;
   --col-3: #b0228c;
   --col-4: #282c34;
-  --col-5: #a4eb7c;
+  --col-5: #89d85a;
 }
 
 h1 {
@@ -38,7 +38,7 @@ body {
 
 /* This is the styling for the box. */
 #root {
-  background: #f4f6f9;
+  background:whitesmoke;
   width: 80%;
   border-radius: 4px;
   box-sizing: border-box;
@@ -164,11 +164,12 @@ these styles and create your own styles and layout for the application.
     /** Class for the count of told jokes. Add it to a <span> element within the <h2> for Told */
     .told-count {
       color: var(--col-5);
+      
     }
 
     /** Class for the count of untold jokes. Add it to a <span> element within the <h2> for Untold */
     .untold-count {
-      color: var(--col-0);
+      color: var(--col-5);
     }
 
     /** Adds styles for both the told-count class and the untold-count class*/
